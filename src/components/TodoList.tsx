@@ -61,7 +61,7 @@ export const TodoList = ({
       <input
         className="m-2 border-b-2 border-black inline"
         type="text"
-        placeholder={dictionary.newTodo}
+        placeholder={dictionary.new_todo}
         ref={input}
       />
       <button

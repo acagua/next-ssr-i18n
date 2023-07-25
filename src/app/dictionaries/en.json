@@ -2,5 +2,8 @@
   "title": "My Todo List",
   "cue": "Click to mark as done or uncomplete or add new tasks",
   "add": "Add new task",
-  "newTodo": "Enter new task"
+  "new_todo": "Enter new task",
+  "spanish": "Spanish",
+  "english": "English",
+  "change_lang": "Change language"
 }

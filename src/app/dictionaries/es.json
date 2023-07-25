@@ -2,5 +2,8 @@
   "title": "Mi lista de tareas",
   "cue": "Click en la tarea para marcar como completada o pendiente. O agrega nuevas tareas",
   "add": "Agregar",
-  "newTodo": "Nueva tarea"
+  "new_todo": "Nueva tarea",
+  "spanish": "Español",
+  "english": "Inglés",
+  "change_lang": "Cambiar idioma"
 }
