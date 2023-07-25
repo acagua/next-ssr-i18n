@@ -3,7 +3,13 @@
 import { Todo } from "@/types";
 import { useRef, useState } from "react";
 
-export const TodoList = ({ initialTodos }: { initialTodos: Todo[] }) => {
+export const TodoList = ({
+  initialTodos,
+  dictionary,
+}: {
+  initialTodos: Todo[];
+  dictionary: Record<string, string>;
+}) => {
   const [todos, setTodos] = useState(initialTodos);
 
   const input = useRef<HTMLInputElement>(null);
@@ -55,14 +61,14 @@ export const TodoList = ({ initialTodos }: { initialTodos: Todo[] }) => {
       <input
         className="m-2 border-b-2 border-black inline"
         type="text"
-        placeholder="new todo"
+        placeholder={dictionary.newTodo}
         ref={input}
       />
       <button
         className="py-2 px-4 bg-blue-400 active:bg-blue-700 text-white rounded-lg"
         onClick={handleAddTodo}
       >
-        Add
+        {dictionary.add}
       </button>
     </>
   );
